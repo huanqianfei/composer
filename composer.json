@@ -12,7 +12,8 @@
     "minimum-stability": "dev",
     "require": {
         "topthink/thinkphp":"3.2.3",
-        "phpseclib/phpseclib":"2.0.6"
+        "phpseclib/phpseclib":"2.0.6",
+        "gregwar/captcha": "^1.1"
     },
     "autoload":{
         "prs-4":{
