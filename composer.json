@@ -1,0 +1,22 @@
+{
+    "name": "huanqianfei/composer",
+    "description": "一个测试项目：关于composer",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huanqianfei",
+            "email": "huan.qianfei@puscene.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "topthink/thinkphp":"3.2.3",
+        "phpseclib/phpseclib":"2.0.6"
+    },
+    "autoload":{
+        "prs-4":{
+            "app\\":"app/"
+        }
+    }
+}
